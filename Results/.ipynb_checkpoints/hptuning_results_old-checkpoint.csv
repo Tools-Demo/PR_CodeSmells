@@ -1,0 +1,9 @@
+model,accuracy,activation,alpha,hidden_layer_sizes,learning_rate,solver,max_features,n_estimators,C,penalty,colsample_bytree,gamma,max_depth,var_smoothing,metric,n_neighbors,weights
+MLP,0.729175822,tanh,0.0001,"(50, 100, 50)",adaptive,adam,,,,,,,,,,,
+RandomForest,0.758087826,,,,,,sqrt,1000,,,,,,,,,
+LinearSVC,0.634873035,,,,,,,,1,,,,,,,,
+LogisticRegression,0.638641138,,,,,lbfgs,,,100,l2,,,,,,,
+XGBoost,0.75845202,,,,0.1,,,150,,,0.2,0.1,9,,,,
+BaggedDT,0.757480115,,,,,,,1000,,,,,,,,,
+NaiveBayes,0.591047022,,,,,,,,,,,,,1.00E-09,,,
+KNN,0.702696844,,,,,,,,,,,,,,manhattan,19,distance
